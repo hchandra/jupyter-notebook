@@ -1,0 +1,11 @@
+---
+
+roles:
+  - { role: "firewall" }
+
+vars:
+  firewalld_state: latest
+  firewalld_default_zone: home
+  firewalld_debug: false
+  firewalld_service:
+      - ssh

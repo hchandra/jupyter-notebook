@@ -1,0 +1,12 @@
+sudo yum install zeromq-devel zeromq czmq
+sudo gem install bundle
+
+gem install cztop rbczmq ffi-rzmq
+gem install iruby
+gim install pry pry-doc awesome_print gnuplot rubyvis nyaplot
+gem install pry pry-doc awesome_print gnuplot rubyvis nyaplot
+
+iruby register --force
+
+jupyter notebook
+
